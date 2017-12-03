@@ -1,0 +1,88 @@
+main{
+    height: 80%;
+    width: 80%;
+    min-height: 500px;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+div{
+    float: left;
+    width: 48%;
+    min-height: 350px;
+    min-width: 180px;
+    padding: 5px;
+    font-family: "Archivo";
+    border-radius: 20px;
+    margin-bottom: 7px;
+}
+main div:first-child{
+    background-color: #EF502A;
+    margin-right: 1.5%;
+}
+main div:nth-child(2){
+    background-color: #215A63;
+}
+body{
+    background-color: #151515;
+}
+input{
+    background: none;
+    border: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 46px;
+    outline: none;
+    font-family: inherit;
+    font-weight: 600;
+    width: 90%;
+    color: #151515;
+    text-transform: uppercase;
+}
+input::placeholder{
+    color: #151515;
+}
+span {
+    font-size: 200px;
+    width: 90%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: -10px;
+    color: #151515;
+    user-select: none;
+}
+em{
+    font-style: normal;
+    font-size: 25px;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #151515;
+    width: 45px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+    font-weight: 600;
+    transition: 200ms;
+    user-select: none;
+}
+nav{
+    margin: auto;
+    width: 237px;
+}
+div:first-child em{
+    color: #EF502A;
+}
+div:nth-child(2) em{
+    color: #215A63;
+}
+div nav em:hover{
+    background-color: transparent;
+    border: 2px solid #151515;
+    margin: 3px;
+    color: #151515;
+}
