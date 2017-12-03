@@ -1,17 +1,14 @@
 main{
-    height: 80%;
-    width: 80%;
-    min-height: 500px;
-    min-width: 400px;
+    width: 860px;
     margin: auto;
     margin-top: 30px;
     overflow: hidden;
 }
 div{
     float: left;
-    width: 48%;
-    min-height: 350px;
-    min-width: 180px;
+    height: 344px;
+    width: 404px;
+    border: 4px solid #151515;
     padding: 5px;
     font-family: "Archivo";
     border-radius: 20px;
@@ -67,7 +64,6 @@ em{
     vertical-align: middle;
     margin: 5px;
     font-weight: 600;
-    transition: 200ms;
     user-select: none;
 }
 nav{
